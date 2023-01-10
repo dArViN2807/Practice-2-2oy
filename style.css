@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+}
+.header {
+  width: 100%;
+  padding: 20px 98px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffff;
+  border-bottom: 2px solid #d9d9d9;
+}
+.header__links_list {
+  display: flex;
+  gap: 60px;
+}
+.header__links_items a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.header__list_item a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 14px;
+  color: rgba(0, 0, 0, 0.85);
+  border: 1px solid #d9d9d9;
+  padding: 2px 10px;
+  width: ;
+}
+.header__list_item a:hover {
+  color: blue;
+}
+.header__links_items a:hover {
+  color: blue;
+}
+.container {
+  background-color: #f4f8fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.main {
+  background: #ffffff;
+  box-shadow: 0px 12px 16px rgba(0, 0, 0, 0.04),
+    0px 4px 56px rgba(0, 0, 0, 0.04);
+  border-radius: 10px;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 24px;
+  margin-left: 435px;
+  margin-right: 435px;
+  padding-bottom: 40px;
+}
+.main__heading {
+  margin: 24px auto;
+  width: 60%;
+  background-color: #fff;
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  justify-content: center;
+}
+.main h1,
+h2 {
+  font-family: "Segoe UI";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 39px;
+  color: rgba(0, 0, 0, 0.85);
+  margin-bottom: 24px;
+  text-align: center;
+}
+.main span {
+  font-family: "?????";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #444150;
+}
+.Main__form_card {
+  display: flex;
+  flex-direction: column;
+  width: 240px;
+  height: 48px;
+  margin-bottom: 10px;
+}
+.Main__form_card_date {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.Main__form_card_date input {
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 10px 60px;
+}
+.Main__form_card input {
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 10px 60px;
+}
+.Main__forms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+b {
+  color: aquamarine;
+}
+.Main__form_card_gender {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.Main__form_card_gender_female {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  background: #ffffff;
+  border: 2px solid #d9d9d9;
+  border-radius: 4px;
+  width: 240px;
+  height: 40px;
+}
+.Main__form_card_gender_male {
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+  width: 240px;
+  height: 40px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+}
+.Main__form_card_gender_female input:hover .Main__form_card_gender_female {
+  border: 1px solid #01bab3;
+  transition: all ease-in 0.5s;
+  background-color: black;
+}
+.Gender {
+  display: flex;
+  align-items: center;
+  width: 84%;
+}
+.Main__form_card_Skype {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+}
+.Main__form_card_Skype input {
+  background: #fbfbfb;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 10px 60px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+.Main__form_Continue {
+  width: 83%;
+  margin-top: 90px;
+  outline: none;
+}
+.Main__form_Continue button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background: #01bab3;
+  border-radius: 4px;
+  height: 48px;
+  color: #ffff;
+  outline: none;
+}
+.Rights {
+  text-align: center;
+  margin-top: 24px;
+  margin-bottom: 30px;
+}
+.Main__form_card_Email {
+  width: 500px;
+}
+.Main__form_card_Email input {
+  position: relative;
+  padding-left: 16px;
+  width: 500px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
+.Main__form_card_Email img {
+  position: absolute;
+  left: 910px;
+  top: 580px;
+}
+.select {
+  position: absolute;
+  border-right: 1px solid gray;
+  top: 565px;
+  width: 50px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  outline: none;
+  justify-content: center;
+}
+.Main__form_card_tel {
+  width: 500px;
+}
+.Main__form_card_tel input {
+  position: relative;
+  padding-left: 16px;
+  width: 500px;
+  height: 50px;
+  background: #ffffff;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+}
